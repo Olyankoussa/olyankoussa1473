@@ -1,0 +1,17 @@
+def main():
+	
+	graduated_students=['ali','samer','kamel','hadde','lamis']
+while true:
+	student_name=input('enter the name of student.\n')
+	if student_name in graduated_students:
+		print(f'{student_name} is graduated \n')
+		else:
+			print(f'unfortunately..!
+			{student_name} is not graduated student \n')
+			flag=input('to continue press y  else press N :')
+			if flag =='N' or flag=='n':
+				break
+				print('___')
+				if__name__=='__name__':
+					print('***start program***')
+					main()

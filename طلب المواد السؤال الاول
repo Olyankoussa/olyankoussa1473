@@ -1,0 +1,8 @@
+def main():
+items=[ 'network','math','programming','physics','music' ]
+for i in range(len(items)):
+	if items [i].start swith('p'):
+		print(items[i])
+		if __name__=='__main__':
+			print('***start programing***')
+			main()
